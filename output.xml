@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.11.7 on darwin)" generated="2024-02-05T13:30:38.766259" rpa="false" schemaversion="5">
+<suite id="s1" name="Test01" source="/Users/piyada-first/Documents/GitHub/automate_test/Test01.robot">
+<test id="s1-t1" name="TC-01" line="6">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-02-05T13:30:38.839279" level="INFO">Opening browser 'gc' to base url 'https://www.youtube.com/'.</msg>
+<arg>url=https://www.youtube.com/</arg>
+<arg>browser=gc</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-02-05T13:30:38.839174" elapsed="3.867722"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-02-05T13:30:42.707451" elapsed="0.081422"/>
+</kw>
+<status status="PASS" start="2024-02-05T13:30:38.838816" elapsed="3.950155"/>
+</test>
+<test id="s1-t2" name="TC-02" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-02-05T13:30:42.789509" level="INFO">Opening browser 'gc' to base url 'https://www.google.com/'.</msg>
+<arg>url=https://www.google.com/</arg>
+<arg>browser=gc</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-02-05T13:30:42.789351" elapsed="1.829561"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-02-05T13:30:44.619787" elapsed="0.072688"/>
+</kw>
+<status status="PASS" start="2024-02-05T13:30:42.789150" elapsed="1.903472"/>
+</test>
+<status status="PASS" start="2024-02-05T13:30:38.766722" elapsed="5.926298"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="Test01">Test01</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
